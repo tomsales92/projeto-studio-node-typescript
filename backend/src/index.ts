@@ -2,7 +2,7 @@ import express from 'express';
 import connection from './database/connection';
 import Contato from './models/Contato';
 import nodemailer from 'nodemailer';
-import infoEmail from './config/email';
+import infoEmail from './config/config';
 const app = express();
 app.use(express.json());
 
